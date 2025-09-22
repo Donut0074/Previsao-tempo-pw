@@ -50,18 +50,19 @@ function colocaNaTela(dados) {
     }
 
     if(dados.weather[0].main == "Clouds"){
-        document.querySelector("#background").background = "/images/fundo-nuvens.jpg"
+        document.querySelector("#background").background = "images/fundo-nuvens.jpg"
     }
     else if(dados.weather[0].main == "Clear"){
-        document.querySelector("#background").background = "/images/ceulimpo-fundo.jpg"
+        document.querySelector("#background").background = "images/ceulimpo-fundo.jpg"
     }
     else if(dados.weather[0].main == "Drizzle"){
-        document.querySelector("#background").background = "/images/fundo-drizzle.jpg"
+        document.querySelector("#background").background = "images/fundo-drizzle.jpg"
     }
     else if(dados.weather[0].main == "Mist"){
-        document.querySelector("#background").background = "/images/fundo-mist.jpg"
+        document.querySelector("#background").background = "images/fundo-mist.jpg"
     }
     else if(dados.weather[0].main == "Rain"){
-        document.querySelector("#background").background = "/images/fundo-chuva.jpg"
+        document.querySelector("#background").background = "images/fundo-chuva.jpg"
     }
+
 }
